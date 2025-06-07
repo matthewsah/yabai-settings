@@ -14,10 +14,10 @@ cmd + shift + ctrl + alt - d : yabai -m window --focus north
 cmd + shift + ctrl + alt - f : yabai -m window --focus east
 
 # #change focus between external displays (left and right)
-shift + ctrl + alt - h : yabai -m display --focus west
-shift + ctrl + alt - j: yabai -m display --focus south
-shift + ctrl + alt - k: yabai -m display --focus north
-shift + ctrl + alt - l: yabai -m display --focus east
+cmd + shift + ctrl + alt - h : yabai -m display --focus west
+cmd + shift + ctrl + alt - j: yabai -m display --focus south
+cmd + shift + ctrl + alt - k: yabai -m display --focus north
+cmd + shift + ctrl + alt - l: yabai -m display --focus east
 
 
 shift + ctrl + alt - z: yabai -m window --display west; yabai -m display --focus west;
